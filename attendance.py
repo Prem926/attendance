@@ -17,6 +17,8 @@ from openpyxl.drawing.image import Image
 from openpyxl.styles import Alignment, PatternFill
 from openpyxl.utils import get_column_letter
 import speech_recognition as sr
+from PIL import Image
+import io
 
 # Update credentials configuration
 ADMIN_USERNAME = "Ratnakar"
@@ -24,6 +26,14 @@ ADMIN_PASSWORD = "1234"
 GUARD_USERNAME = "guard"
 GUARD_PASSWORD = "guard123"
 DB_FILE = "attendance.db"
+
+# Add this at the start of your main code
+st.set_page_config(
+    page_title="Labor Attendance System",
+    page_icon="👥",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 
 def init_db():
     conn = sqlite3.connect(DB_FILE)
@@ -528,12 +538,6 @@ def show_dashboard():
 
 # Modified Streamlit UI
 def main():
-    st.set_page_config(
-        page_title="Labour Attendance System",
-        page_icon="👥",
-        layout="wide"
-    )
-    
     st.title("Labour Attendance System")
     
     # Initialize database
