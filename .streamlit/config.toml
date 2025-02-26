@@ -9,3 +9,6 @@ font="sans serif"
 maxUploadSize=10
 enableXsrfProtection=false
 enableCORS=false
+
+[browser]
+gatherUsageStats=false
