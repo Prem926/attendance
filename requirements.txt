@@ -9,4 +9,3 @@ Pillow
 schedule
 speechrecognition
 streamlit
-dlib face_recognition
