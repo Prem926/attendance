@@ -1,14 +1,14 @@
 channels:
-  - defaults
   - conda-forge
+  - defaults
 dependencies:
   - python=3.9
   - streamlit
   - numpy
   - pandas
   - opencv
+  - dlib
   - face-recognition
-  - dlib-bin
   - openpyxl
   - speechrecognition
   - pillow
