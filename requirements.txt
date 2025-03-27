@@ -1,12 +1,1 @@
-streamlit
-opencv-python
-numpy
-sqlite3
-face-recognition
-pandas
-smtplib
-schedule
-shutil
-openpyxl
-speechrecognition
-pillow
+pipreqs
