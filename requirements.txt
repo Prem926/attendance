@@ -1,5 +1,5 @@
 face_recognition
-dlib-bin
+https://files.pythonhosted.org/packages/cf/04/ea6e5df3d37402fd7b9c9b2293549b70813e4e5fc7cc83e4415c7eb531f6/dlib-19.24.2-cp39-cp39-manylinux2014_x86_64.whl
 numpy
 opencv_contrib_python
 opencv_python
