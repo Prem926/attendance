@@ -8,7 +8,7 @@ dependencies:
   - pandas
   - opencv
   - face-recognition
-  - dlib
+  - dlib-bin
   - openpyxl
   - speechrecognition
   - pillow
